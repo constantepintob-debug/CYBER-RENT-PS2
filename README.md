@@ -5,40 +5,34 @@
 - Brisa Constante
 
 ## Nombre del programa
-**[Escriban aquí el nombre del programa]**
+CYBER-RENT-PS2
 
 ## Descripción del proyecto
-[Expliquen brevemente qué hace el programa y para quién está pensado.]
-
+Este proyecto consiste en la creación de un sistema o programa relacionado con la renta de videojuegos o servicios para consola PS2. Su objetivo es facilitar la gestión de alquileres, disponibilidad de productos y acceso a información relevante para clientes y administradores.
 ## Problema
-[Describan qué necesidad o dificultad busca resolver el proyecto.]
-
+En muchos casos, la gestión de alquileres o reservas de videojuegos se realiza de forma manual, lo que puede generar errores, pérdida de tiempo y falta de organización. Además, puede ser difícil llevar el control de disponibilidad, clientes y operaciones.
 ## Solución propuesta
-[Expliquen cómo ayuda el programa a resolver el problema.]
+El programa ofrece una herramienta digital para organizar y administrar las operaciones de alquiler de juegos o productos relacionados con la consola PS2. Con esta solución, se busca mejorar la eficiencia, reducir errores y facilitar el control de la información.
 
 ## Objetivos
-- [Objetivo principal]
-- [Otro objetivo, si corresponde]
+- Organizar la gestión de alquileres.
+- Facilitar la búsqueda y disponibilidad de productos.
+- Mejorar la administración de clientes y reservas.
+- Optimizar el proceso de atención y control del negocio.
 
 ## Funcionalidades principales
-- [Funcionalidad 1]
-- [Funcionalidad 2]
-- [Funcionalidad 3]
+
 
 ## Herramientas y tecnologías utilizadas
-- **Lenguaje de programación:** [por ejemplo, Python, Java o JavaScript]
-- **Entorno o editor:** [por ejemplo, Visual Studio Code]
-- **Otras herramientas:** [agreguen las que hayan utilizado]
+
 
 ## Cómo ejecutar el programa
-1. [Indiquen qué se necesita instalar o preparar.]
-2. [Escriban el comando o los pasos para iniciar el programa.]
+
 
 ## Público destinatario
-[Indiquen quiénes podrían utilizar el programa.]
+
 
 ## Estado del proyecto
-[En desarrollo / terminado / en etapa de prueba]
 
-## Créditos
-Proyecto realizado por Ludmila Castro y Brisa Constante.
+
+
