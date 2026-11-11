@@ -15,22 +15,13 @@ En muchos casos, la gestión de alquileres o reservas de videojuegos se realiza 
 El programa ofrece una herramienta digital para organizar y administrar las operaciones de alquiler de juegos o productos relacionados con la consola PS2. Con esta solución, se busca mejorar la eficiencia, reducir errores y facilitar el control de la información.
 En este caso elegimos la clase 9 (manejo de excepciones) ya que tryintenta ejecutar instrucciones que podrían fallar, forrecorre una colección elemento por elemento, print muestra en pantalla el valor guardado en las variables
 
-## Objetivos
-- Organizar la gestión de alquileres.
-- Facilitar la búsqueda y disponibilidad de productos.
-- Mejorar la administración de clientes y reservas.
-- Optimizar el proceso de atención y control del negocio.
-
-## Funcionalidades principales
-
-
 ## Herramientas y tecnologías utilizadas
 
 
-## Cómo ejecutar el programa
+## Enlace del tablero
 
 
-## Público destinatario
+## Instrucciones para ejecutar
 
 
 ## Estado del proyecto
