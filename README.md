@@ -29,7 +29,7 @@ Java, HTML y CSS, GitHub y Trello
 
 
 ## Enlace del tablero
-
+https://trello.com/b/TyL6jqW1/grupo-3-cyber-rent-ps2
 
 ## Instrucciones para ejecutar
 (El código todavía está en desarrollo.)
