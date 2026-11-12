@@ -32,6 +32,7 @@ El Main los llama dentro de un try y tiene un catch distinto para cada excepció
 
 ## 5. Excepciones personalizadas
 Todas heredan de Exception:
+
 SinJuegosException: Cuando se intenta mostrar juegos y no hay ninguno.
 
 DniInvalidoException: Cuando el DNI no tiene 7 u 8 números o tiene letras.
