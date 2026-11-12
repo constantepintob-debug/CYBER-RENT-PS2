@@ -1,5 +1,6 @@
 Diseño - Cyber-Rent PS2
 En este archivo está el plano del programa: qué clases tiene, cómo funciona el menú y dónde se usan las excepciones.
+
 1. Clases
     mermaid
    classDiagram
@@ -37,6 +38,7 @@ En este archivo está el plano del programa: qué clases tiene, cómo funciona e
     CyberRent --> Juego
     CyberRent --> Alquiler
     Main --> CyberRent
+   
    Juego: cada juego del local. Tiene codigo, nombre, precio por dia y sabe si esta LIBRE o ALQUILADO con el atributo disponible.
    Cliente: la persona que alquila, con su nombre y DNI. El DNI lo guardamos como String porque no hacemos cuentas con el y necesitamos revisar si tiene letras.
    Alquiler: una reserva. Une un juego con un cliente, guarda los dias y la fecha y hora de retiro, y calcula el precio (1 dia $4.000, 2 dias $6.000, 3 dias $9.000).
