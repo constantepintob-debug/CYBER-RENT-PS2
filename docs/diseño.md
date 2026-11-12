@@ -4,14 +4,13 @@ En este archivo está el plano del programa: qué clases tiene, cómo funciona e
 
 ## 1. Clases
 
-```mermaid
+mermaid
 classDiagram
     class Juego {
-        String codigo
         String nombre
-        double precioPorDia
         boolean disponible
-        setDisponible()
+        alquilar()
+        devolver()
     }
     class Cliente {
         String nombre
@@ -21,23 +20,19 @@ classDiagram
         Juego juego
         Cliente cliente
         int dias
-        LocalDateTime fechaRetiro
+        LocalDate fechaRetiro
         calcularPrecio()
     }
     class CyberRent {
-        ArrayList~Juego~ juegos
-        ArrayList~Alquiler~ alquileres
-        altaJuego()
-        altaCliente()
+        lista de juegos
+        lista de alquileres
         mostrarJuegos()
-        registrarReserva()
-        cobrar()
+        reservar()
         devolver()
-        buscarJuego()
+        buscarPorDni()
     }
     class Main {
         menú con do-while
-        Scanner
         try / catch / finally
     }
     Alquiler --> Juego
@@ -45,7 +40,7 @@ classDiagram
     CyberRent --> Juego
     CyberRent --> Alquiler
     Main --> CyberRent
-        
+      
     
 
        
