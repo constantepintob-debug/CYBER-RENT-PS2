@@ -1,5 +1,7 @@
 Bitacora de avance (Dia 3 11/11/2026)
+
 Objetivo de dia
+
 Definir bien el proyecto, organizar las tareas y dejar armada la documentacion inicial de GitHub
 
 ¿Que desarrollamos hoy?
