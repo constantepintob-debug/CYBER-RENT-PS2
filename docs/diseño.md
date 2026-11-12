@@ -4,7 +4,7 @@ En este archivo está el plano del programa: qué clases tiene, cómo funciona e
 
 ## 1. Clases
 
-mermaid
+```mermaid
 classDiagram
     class Juego {
         String nombre
