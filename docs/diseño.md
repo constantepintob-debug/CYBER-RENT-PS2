@@ -30,9 +30,16 @@ JuegoLibreException: Cuando se intenta devolver un juego que ya estaba LIBRE.
 DuracionInvalidaException: Cuando los días no son 1, 2 o 3.
 FechaInvalidaException: Cuando la fecha de retiro ya pasó.
 TiempoInvalidoException: Cuando los días a cobrar son 0 o negativos. 
-    
 
 ## 6. Clases
+Juego: cada juego del local. Tiene código, nombre, precio por día y sabe si está LIBRE o ALQUILADO con el atributo disponible.
+Cliente: la persona que alquila, con su nombre y DNI. El DNI lo guardamos como String porque no hacemos cuentas con él y necesitamos revisar si tiene letras.
+Alquiler: una reserva. Une un juego con un cliente, guarda los días y la fecha y hora de retiro, y calcula el precio (1 día $4.000, 2 días $6.000, 3 días $9.000).
+CyberRent: es la clase que maneja el local. Tiene todos los juegos y los alquileres. Revisa los datos de cada reserva y, si algo está mal, arroja una de nuestras excepciones con throw.
+Main: el menú que usa el empleado.2. Cómo funciona el menú (Main.java)El menú se repite con un do-while hasta que el empleado elige salir. Para leer lo que escribe usamos Scanner.En el Main no revisamos los datos con if: cada opción llama a un método de CyberRent dentro de un try. Si ese método arroja una excepción, la atendemos en el catch, mostramos el mensaje y el menú sigue funcionando. En el finally mostramos "Operación finalizada", haya salido bien o mal.
+    
+
+
 
 ```mermaid
 classDiagram
@@ -78,11 +85,7 @@ classDiagram
 
 
 
-Juego: cada juego del local. Tiene código, nombre, precio por día y sabe si está LIBRE o ALQUILADO con el atributo disponible.
-Cliente: la persona que alquila, con su nombre y DNI. El DNI lo guardamos como String porque no hacemos cuentas con él y necesitamos revisar si tiene letras.
-Alquiler: una reserva. Une un juego con un cliente, guarda los días y la fecha y hora de retiro, y calcula el precio (1 día $4.000, 2 días $6.000, 3 días $9.000).
-CyberRent: es la clase que maneja el local. Tiene todos los juegos y los alquileres. Revisa los datos de cada reserva y, si algo está mal, arroja una de nuestras excepciones con throw.
-Main: el menú que usa el empleado.2. Cómo funciona el menú (Main.java)El menú se repite con un do-while hasta que el empleado elige salir. Para leer lo que escribe usamos Scanner.En el Main no revisamos los datos con if: cada opción llama a un método de CyberRent dentro de un try. Si ese método arroja una excepción, la atendemos en el catch, mostramos el mensaje y el menú sigue funcionando. En el finally mostramos "Operación finalizada", haya salido bien o mal.
+
 
 
 
