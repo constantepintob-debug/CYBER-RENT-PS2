@@ -2,11 +2,11 @@ Bitacora de avance (Dia 3 11/11/2026)
 Objetivo de dia
 Definir bien el proyecto, organizar las tareas y dejar armada la documentacion inicial de GitHub
 
-Que desarrollamos hoy
+¿Que desarrollamos hoy?
 Elegimos el tema definitivo y nos decidimos por el negocio Cyber-Ren PS2
 Armamos el tablero en Trello
 Creamos el tablero del grupo con 3 columnas:
-Por hacer (clases juegos, cliente, alquiler y excepciones)
+Por hacer (clases juegos y excepciones)
 En curso (README y estructura del repositorio)
 Hecho (eleccion del tema y creacion del repositorio en GitHub)
 La persona encargada de crear el tablero fue Castro
