@@ -17,12 +17,13 @@ Descripcion del negocio, problema que resuelve, tegnologia (java, html, css, git
 La persona encargada de armar el README fue Constante
 
 Dificultad que tuvimos
-No pudimos contactar con Centeno y Cespedes
-Nos costo decidir el tema pero votamos por PS2 porque era la mas completa
-Que nos quedo para mañana
+
+No pudimos contactar con Centeno y Cespedes como tambien nos costo decidir el tema pero votamos por PS2 porque era la mas completa
+Que nos quedo para mañana (12/11/20216)
 Empezar a programar las clases juego, cliente y alquiler
 Crear las excepciones en Java
 Subir el index.html del negocio
 
 Conclusion
+
 Hoy dejamos la base del proyecto ya concluida , es decir, tenemos tema, organizacion en Trello y documentacion en GitHub
