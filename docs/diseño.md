@@ -1,7 +1,4 @@
-Diseño - Cyber-Rent PS2
-En este archivo está el plano del programa: qué clases tiene, cómo funciona el menú y dónde se usan las excepciones.
-
-    # Diseño - Cyber-Rent PS2
+# Diseño - Cyber-Rent PS2
 
 En este archivo está el plano del programa: qué clases tiene, cómo funciona el menú y dónde se usan las excepciones.
 
@@ -48,7 +45,6 @@ classDiagram
     CyberRent --> Juego
     CyberRent --> Alquiler
     Main --> CyberRent
-
         
     
 
