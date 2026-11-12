@@ -1,5 +1,13 @@
 Diseño - Cyber-Rent PS2
 En este archivo está el plano del programa: qué clases tiene, cómo funciona el menú y dónde se usan las excepciones.
+
+    # Diseño - Cyber-Rent PS2
+
+En este archivo está el plano del programa: qué clases tiene, cómo funciona el menú y dónde se usan las excepciones.
+
+## 1. Clases
+
+```mermaid
 classDiagram
     class Juego {
         String codigo
@@ -20,15 +28,20 @@ classDiagram
         calcularPrecio()
     }
     class CyberRent {
+        ArrayList~Juego~ juegos
+        ArrayList~Alquiler~ alquileres
+        altaJuego()
+        altaCliente()
         mostrarJuegos()
         registrarReserva()
         cobrar()
         devolver()
-        altaJuego()
-        altaCliente()
+        buscarJuego()
     }
     class Main {
-        menu()
+        menú con do-while
+        Scanner
+        try / catch / finally
     }
     Alquiler --> Juego
     Alquiler --> Cliente
