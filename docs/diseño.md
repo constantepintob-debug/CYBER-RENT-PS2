@@ -8,7 +8,7 @@ La validación no se realiza con expresiones lógicas en el `Main`, sino mediant
 
 ### 2. Opciones del Menú Principal
 
-El menú despliega 7 opciones operativas:
+El menú ofrece 7 opciones:
 
 1. Registrar consola: Pide código, nombre, ubicación y estado inicial (LIBRE). Invoca el método `alta()` de la clase `CyberRent`. Si el código ya existe, lanza `ConsolaDuplicadaException`.
 
