@@ -5,6 +5,7 @@ Objetivo de dia
 Definir bien el proyecto, organizar las tareas y dejar armada la documentacion inicial de GitHub
 
 ¿Que desarrollamos hoy?
+
 Elegimos el tema definitivo y nos decidimos por el negocio Cyber-Ren PS2
 Armamos el tablero en Trello
 Creamos el tablero del grupo con 3 columnas:
