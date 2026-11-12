@@ -45,6 +45,7 @@ classDiagram
     CyberRent --> Alquiler
     Main --> CyberRent
 
+
 Juego: cada juego del local. Tiene código, nombre y sabe si está LIBRE o ALQUILADO.
 Cliente: la persona que alquila, con su nombre y DNI.
 El DNI lo guardamos como String porque no hacemos cuentas con él y necesitamos revisar si tiene letras.
