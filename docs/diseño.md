@@ -46,6 +46,7 @@ classDiagram
     CyberRent --> Alquiler
     Main --> CyberRent
 
+
      Juego: cada juego del local. Tiene código, nombre, precio por día y sabe si está LIBRE o ALQUILADO con el atributo disponible.
 Cliente: la persona que alquila, con su nombre y DNI. El DNI lo guardamos como String porque no hacemos cuentas con él y necesitamos revisar si tiene letras.
 Alquiler: una reserva. Une un juego con un cliente, guarda los días y la fecha y hora de retiro, y calcula el precio (1 día $4.000, 2 días $6.000, 3 días $9.000).
