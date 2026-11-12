@@ -1,5 +1,6 @@
 Diseño - Cyber-Rent PS2
 En este archivo está el plano del programa: qué clases tiene, cómo funciona el menú y dónde se usan las excepciones.
+
  Clases
  mermaid
  classDiagram
