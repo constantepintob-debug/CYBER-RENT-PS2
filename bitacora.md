@@ -21,3 +21,13 @@
   - Brisa Constante: creó el repositorio en GitHub, subió el README y organizó los archivos.
 - Qué nos trabó: no pudimos contactar a Centeno ni a Céspedes, y no teníamos acceso al repositorio de Céspedes.
 - Qué sigue (12/11): programar las clases Juego, Cliente y Alquiler, crear las excepciones en Java y sumar la página HTML del local (hecha por Lautaro Céspedes, se cita en el README).
+
+- 
+## Día 4 (12/11/2026)
+- Qué hicimos: hoy subimos las primeras 4 excepciones en /src, el análisis con las historias de usuario en /docs, los casos de prueba en /pruebas y la carpeta kanban con la captura del día 3. También armamos el diseño del programa: cómo va a funcionar el menú, el diagrama de clases y qué excepciones vamos a usar. Brisa además escribió qué hace cada método. La profe nos respondió que sigamos avanzando mientras intenta hablar con Lautaro y Santiago.
+- Quién hizo qué:
+  - Ludmila: hice las excepciones DniInvalidoException, JuegoNoDisponibleException, FechaInvalidaException y DuracionInvalidaException, el análisis, los casos de prueba y la carpeta kanban. También revisé el diseño para que coincida con el alquiler de juegos.
+  - Brisa: hizo el diseño del menú y de la clase CyberRent, el diagrama de clases, la lista de las 8 excepciones y el archivo de métodos obligatorios.
+- Qué nos trabó: me costó subir archivos dentro de carpetas en GitHub porque se me creaba una carpeta de más. Lo resolví armando las carpetas en la compu antes de subirlas. Además, al principio el diseño quedó como si alquiláramos consolas por minutos en vez de juegos por días, y lo fuimos corrigiendo entre las dos hasta que quedó bien.
+- Qué sigue: crear las 4 excepciones que faltan (SinJuegosException, JuegoNoEncontradoException, JuegoLibreException y TiempoInvalidoException) y cambiarle el nombre a JuegoNoDisponibleException por JuegoOcupadoException, así coincide con el diseño. Después empezamos a programar las clases.
+- Captura del tablero: kanban/dia-4.png
