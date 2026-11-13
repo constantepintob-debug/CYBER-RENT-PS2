@@ -1,1 +1,59 @@
+## 4. Metodos obligatorios y sus funciones
 
+### En CyberRent
+
+mostrarJuegos()
+Muestra todos los juegos. Dice codigo, nombre y si esta LIBRE o ALQUILADO.
+Si esta alquilado, muestra tambien DNI, nombre del cliente y fecha de retiro.
+Si no hay juegos, lanza SinJuegosException.
+
+registrarReserva(nombre, dni, codigo, dias, fecha)
+Revisa que el DNI tenga 7 u 8 numeros sin letras, que el juego exista,
+que no este alquilado, que los dias sean 1, 2 o 3 y que la fecha no haya pasado.
+Si esta todo bien, crea el alquiler y marca el juego como ALQUILADO.
+
+cobrar(codigo)
+Busca el alquiler de ese juego y muestra el ticket con DNI, nombre,
+juego, dias, fecha de retiro y total a pagar.
+Si los dias son 0 o negativos, lanza TiempoInvalidoException.
+
+devolver(codigo)
+Busca el juego y lo vuelve a dejar LIBRE. Borra su alquiler.
+Si ya estaba LIBRE, lanza JuegoLibreException.
+
+altaJuego(codigo, nombre, precio)
+Agrega un juego nuevo a la lista. Se usa para cargar los 5 juegos iniciales.
+
+altaCliente(nombre, dni)
+Crea un cliente nuevo con su nombre y DNI.
+
+buscarJuego(codigo)
+Busca un juego por su codigo en la lista.
+Si no lo encuentra, lanza JuegoNoEncontradoException.
+Lo usan registrarReserva, cobrar y devolver.
+
+### En Alquiler
+
+calcularPrecio()
+Calcula cuanto hay que pagar segun los dias.
+1 dia 4000, 2 dias 6000, 3 dias 9000.
+
+### En Juego
+
+setDisponible(true o false)
+Cambia el estado del juego.
+True significa LIBRE, false significa ALQUILADO.
+Lo usan registrarReserva y devolver.
+
+### En Main
+
+main()
+Es el menu. Muestra las 5 opciones, lee lo que escribe el empleado
+con Scanner, se repite con do-while, llama a los metodos de CyberRent
+dentro de un try y si hay un error lo muestra en el catch sin cerrarse.
+En el finally muestra Operacion finalizada.
+
+
+
+
+Y asi se hace con todas las demas, solo cambia el nombre.
