@@ -51,7 +51,7 @@ TiempoInvalidoException: Cuando los días a cobrar son 0 o negativos.
 
 
 ## 6. Clases
-Juego: cada juego del local. Tiene código, nombre, precio por día y sabe si está LIBRE o ALQUILADO con el atributo disponible.
+Juego: cada juego del local tiene código, nombre, precio por día y sabe si está LIBRE o ALQUILADO con el atributo disponible.
 
 Cliente: la persona que alquila, con su nombre y DNI. El DNI lo guardamos como String porque no hacemos cuentas con él y necesitamos revisar si tiene letras.
 
