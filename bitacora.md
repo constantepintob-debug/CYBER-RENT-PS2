@@ -31,3 +31,13 @@
 - Qué nos trabó: me costó subir archivos dentro de carpetas en GitHub porque se me creaba una carpeta de más. Lo resolví armando las carpetas en la compu antes de subirlas. Además, al principio el diseño quedó como si alquiláramos consolas por minutos en vez de juegos por días, y lo fuimos corrigiendo entre las dos hasta que quedó bien.
 - Qué sigue: crear las 4 excepciones que faltan (SinJuegosException, JuegoNoEncontradoException, JuegoLibreException y TiempoInvalidoException) y cambiarle el nombre a JuegoNoDisponibleException por JuegoOcupadoException, así coincide con el diseño. Después empezamos a programar las clases.
 - Captura del tablero: kanban/dia-4.png
+
+
+## Día 5 (13/11/2026)
+- Qué hicimos: completamos el código del programa. Agregamos las 4 excepciones que faltaban y le cambiamos el nombre a JuegoNoDisponibleException por JuegoOcupadoException, así coincide con el diseño. También hicimos las clases Juego, Cliente y Alquiler, la clase CyberRent (que revisa los datos y lanza las excepciones) y el Main con el menú, el try/catch y el finally.
+- Quién hizo qué:
+  - Brisa: hizo las excepciones SinJuegosException, JuegoNoEncontradoException, JuegoLibreException y TiempoInvalidoException, el cambio de nombre a JuegoOcupadoException y las clases Juego, Cliente y Alquiler.
+  - Ludmila: hice la clase CyberRent con los métodos para mostrar juegos, reservar, cobrar y devolver, y el Main con el menú de 5 opciones y un catch para cada excepción.
+- Qué nos trabó: entender por qué se necesitaban más excepciones. Al final nos dimos cuenta de que las primeras 4 eran solo para reservar y que las otras opciones del menú (mostrar, cobrar y devolver) también podían fallar. También nos costó organizarnos con los horarios porque las dos trabajamos.
+- Qué sigue: instalar Eclipse, ejecutar el programa y probar todos los casos para completar los resultados en la tabla de pruebas. Después, sacar capturas del programa funcionando y completar el README.
+- Captura del tablero: kanban/dia-5.png
