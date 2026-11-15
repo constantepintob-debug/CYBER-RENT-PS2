@@ -50,3 +50,13 @@
 - Qué nos trabó: la instalación de Eclipse quedó frenada varias horas porque apareció una ventana pidiendo confiar en los certificados y no la había visto. También abrí los archivos sueltos y no se podían ejecutar, hasta que creé un proyecto y los pegué adentro. Otra cosa: la fecha hay que escribirla como aaaa-mm-dd, si no salta el error de fecha.
 - Qué sigue: terminar las pruebas que faltan (5 días, fecha pasada, juego que no existe, cobrar y devolver), completar la tabla de casos de prueba con los resultados, agregar capturas al README y preparar la defensa.
 - Captura del tablero: kanban/dia-6.png
+
+- 
+## Día 7 (15/11/2026)
+- Qué hicimos: terminamos las pruebas en Eclipse. Corrimos los 14 casos de la tabla y pasaron todos: en cada error saltó la excepción que correspondía y el menú siguió funcionando. Completamos la tabla con los resultados, subimos las capturas a /pruebas y actualizamos el README con las 8 excepciones, cómo ejecutar el programa, las capturas y las conclusiones. La profesora nos confirmó que en el grupo figuren solo quienes trabajaron.
+- Quién hizo qué:
+  - Ludmila: completé la tabla de casos de prueba, hice las pruebas de DNI corto, fecha pasada, letras en el menú y cobrar y devolver un juego libre, y actualicé el README.
+  - Brisa: hizo las pruebas de mostrar juegos, cobrar y devolver, 5 días, fecha pasada y juego que no existe, y subió las capturas.
+- Qué nos trabó: dos excepciones (SinJuegosException y TiempoInvalidoException) no se pueden provocar desde el menú, porque el local siempre arranca con 5 juegos y los días ya se revisan al reservar. Lo dejamos aclarado en la tabla de pruebas.
+- Qué sigue: practicar la defensa oral del martes 17.
+- Captura del tablero: kanban/dia-7.png
