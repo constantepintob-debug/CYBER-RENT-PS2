@@ -41,3 +41,12 @@
 - Qué nos trabó: entender por qué se necesitaban más excepciones. Al final nos dimos cuenta de que las primeras 4 eran solo para reservar y que las otras opciones del menú (mostrar, cobrar y devolver) también podían fallar. También nos costó organizarnos con los horarios porque las dos trabajamos.
 - Qué sigue: instalar Eclipse, ejecutar el programa y probar todos los casos para completar los resultados en la tabla de pruebas. Después, sacar capturas del programa funcionando y completar el README.
 - Captura del tablero: kanban/dia-5.png
+
+- 
+## Día 6 (14/11/2026)
+- Qué hicimos: se instaló Eclipse, se armó el proyecto con los 13 archivos de /src y se ejecutó el programa por primera vez. Empezamos las pruebas: una reserva bien hecha (total $6.000), un DNI con letras, un juego que ya estaba alquilado y una fecha mal escrita. En los tres errores saltó la excepción que correspondía, se mostró el mensaje y el menú siguió funcionando. La captura está en /pruebas.
+- Quién hizo qué:
+  - Ludmila: instalé Eclipse, creé el proyecto, ejecuté el programa, hice las primeras pruebas y subí la captura.
+- Qué nos trabó: la instalación de Eclipse quedó frenada varias horas porque apareció una ventana pidiendo confiar en los certificados y no la había visto. También abrí los archivos sueltos y no se podían ejecutar, hasta que creé un proyecto y los pegué adentro. Otra cosa: la fecha hay que escribirla como aaaa-mm-dd, si no salta el error de fecha.
+- Qué sigue: terminar las pruebas que faltan (5 días, fecha pasada, juego que no existe, cobrar y devolver), completar la tabla de casos de prueba con los resultados, agregar capturas al README y preparar la defensa.
+- Captura del tablero: kanban/dia-6.png
